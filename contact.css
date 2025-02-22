@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Epilogue;
+}
+.saroy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 0px 100px;
+    margin-bottom: 30px;
+    
+}
+.matn{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.matn h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+.matn h3{
+    font-size: 30px;
+}
+.matncha{
+    display: flex;
+    flex-direction: row;
+}
+.qirolliksaroyi{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+.qirolliksaroyi img:nth-child(2){
+    position: absolute;
+    right: 26px;
+    top: 120px;
+}
+.qirolliksaroyi img:nth-child(3){
+    position: absolute;
+    left: 0;
+    top: 400px;
+}
+.qirolliksaroyi img:nth-child(6){
+    position: absolute;
+    top: 433px;
+    left: 410px;
+}
+.qirolliksaroyi img:nth-child(5){
+    position: absolute;
+    top: 543px;
+    left: 280px;
+}
+.qirolliksaroyi img:nth-child(4){
+    position: absolute;
+    top: 590px;
+    left: 150px;
+}
+.qirolliksaroyi h1{
+    position: absolute;
+    top: 460px;
+    color: white;
+    font-size: 45px;
+}
+.qirolliksaroyi h4{
+    position: absolute;
+    top: 520px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Van{
+    position: absolute;
+    top: 560px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #efefef;
+}
+.Rijks{
+    position: absolute;
+    top: 600px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #efefef;
+}
+.matn ul{
+    line-height: 27px;
+    margin-top: 150px;
+}
+.matn ul li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.matn ul img{
+    display: flex;
+    flex-direction: row;
+}
+.matncha{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 260px;
+}
+.matncha .sol{
+    margin-bottom: 100px;    
+}
+.hafta{
+    margin-top: 50px;
+    gap: 200px;
+}
+.shahar{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    bottom: 40px;
+}
+/* .homiy{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding: 0px 100px;
+    gap: 120px;
+}
+.homiy img{
+    width: 50px;
+    height: 50px;
+} */
+ .hpmiy{
+    margin-left: 50px;
+}
+.footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #2D2D2D;
+    color: #ffffff77;
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer h4{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+
+.footer .div a{
+    color: #ffffff80;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer .div{
+    margin-top: 100px;
+    list-style: none;
+
+}
+
+.input .inp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-left: 200px;
+}
+.input .inp input{
+    width: 530px;
+    height: 70px;
+    border: none;
+    background-color: #efefef;
+    margin-right: 20px;
+    padding: 20px;
+    margin-top: 15px;
+}
+.inp input:last-child{
+    width: 530px;
+    height: 196px;
+}
+.inp{
+    width: 50%;
+    height: 100%;
+
+}
+#izoh{
+    width: 530px;
+    height: 196px;
+    padding-bottom: 140px;
+}
+.input{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 0px;
+    padding-right: 80px;
+}
+.text{
+    width: 65%;
+    height: 100%;
+    margin-top: -80px;
+}
+p{
+    font-size: 20px;
+}
+.text2{
+    width: 50%;
+    height: 100%;
+    margin-top: 00px;
+    position: relative;
+    margin-left: 100px;
+    /* margin-right: 200px; */
+    line-height: 30px;
+}
+.homiy{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 100px;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ol a{
+    text-decoration: none ;
+color: #2D2D2D;
+}
+nav ul a:hover{
+    color: rgba(0, 0, 0, 0.884);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.885);
+    padding: 3px 0px;
+    transition: .2s;
+}
